@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: darkgrey;
+    text-align: left;
+    background-color: #fff
+}
+
+.navbar-wrapper {
+    border-bottom: 2px solid lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-white {
+    padding: 0%;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+.collapse {
+    text-align: right;
+}
+
+.container {
+    width: 75%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    position: relative;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    border-bottom: 3px solid #dee2e6;
+    padding-bottom: 1rem;
+}
+
+#thumbnail {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    max-width: 100%;
+    height: 220px;
+}
+
+.text-block {
+    position: relative;
+    bottom: 60px;
+    background-color: #17a2b8!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#about-picture {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#secondnav {
+    border-top: 4px solid #17a2b8!important;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#secondnav a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px;
+}
+	
+.form-control, .contact-form .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+#thumbnail-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
